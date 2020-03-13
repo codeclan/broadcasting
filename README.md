@@ -30,4 +30,33 @@ OBS is relaiable software for creating high quality live streams. It works with 
 * `brew cask install obs` will install OBS. If you'd rather do it manually, there's a mac installer on the official OBS website.
 * Launch OBS
 * First time it's run, it will try to configure for your needs. Follow this process. Don't configure too many things yourself, as we will override this config shortly anyway.
-* Import the settings
+* Import the settings provided `Profile` > `Import`.
+* **Change the streamer key** Settings > Stream > Stream Key and repace it with YOUR streamer key from YouTube.
+
+
+## Before Streaming
+In no particular order, you'll need to check all of the following settings:
+
+* **Settings** > **Output** > **Video Bitrate** `4500 Kbps`
+* **Settings** > **Video** > **Base (Canvas) Resolution**: `1920x1080`
+* **Settings** > **Video** > **Output (Scaled) Resolution**: `1920x1080`
+* **Settings** > **Advanced** > **Network** > Dynamically change bitrate to manage congestion (Beta): ✅
+
+
+### How to use it
+
+* Setup your stream on youtube with the following:
+  * go to [https://studio.youtube.com/](https://studio.youtube.com/)
+  * Choose Create (top right)
+  * Go live
+  * Create a New Stream
+  * Give your stream a title eg "G18 Lesson on JS Arrays"
+  * Make it Unlisted
+  * Add a description if you want
+  * Add
+  * This will take you to the stream admin screen.
+  * Copy the stream key into your stream key in OBS (Settings > Stream > Stream Key
+  * Under **Stream Latency** set it to **Ultra low-latency**
+  * Now switch over to OBS and choose **Start Streaming**
+  * Over on the stream admin page wait a minute or so for the OBS feed to connect to YouTube. You'll see the feed on the preview.
+  * If it all looks good you can now GO LIVE

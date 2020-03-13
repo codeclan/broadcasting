@@ -40,7 +40,10 @@ OBS is relaiable software for creating high quality live streams. It works with 
 
 
 ## Before Streaming
-In no particular order, you'll need to check all of the following settings:
+
+(**can** do this before YT account verification)
+
+In no particular order, you'll need to check all of the following settings: (they might already be imported correctly)
 
 * **Settings** > **Output** > **Video Bitrate** `4500 Kbps`
 * **Settings** > **Video** > **Base (Canvas) Resolution**: `1920x1080`
@@ -48,7 +51,7 @@ In no particular order, you'll need to check all of the following settings:
 * **Settings** > **Advanced** > **Network** > Dynamically change bitrate to manage congestion (Beta): ✅
 
 
-### How to use it
+### How to use it (need to wait until YouTube account has been verified, first)
 
 * Setup your stream on youtube with the following:
   * go to [https://studio.youtube.com/](https://studio.youtube.com/)

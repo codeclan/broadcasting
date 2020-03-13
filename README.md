@@ -30,6 +30,10 @@ OBS is relaiable software for creating high quality live streams. It works with 
 * `brew cask install obs` will install OBS. If you'd rather do it manually, there's a mac installer on the official OBS website.
 * **Before Launching OBS:** Copy the **contents of** `obs-studio` directory in this repository INTO your `~/Library/Application\ Support/obs-studio`. Create the `obs-studio` directory in `Application Support` if it doesn't exist.
 * Now run OBS
+* Check OBS has three sources listed:
+  * Projector Capture
+  * Display Capture
+  * Mic/Aux
 * First time it's run, it will try to configure for your needs. Follow this process. Don't configure too many things yourself, as we will override this config shortly anyway.
 * Import the settings provided `Profile` > `Import`.
 * **Change the streamer key** Settings > Stream > Stream Key and repace it with YOUR streamer key from YouTube.

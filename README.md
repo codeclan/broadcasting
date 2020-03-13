@@ -28,7 +28,7 @@ OBS is relaiable software for creating high quality live streams. It works with 
 ## Install OBS
 
 * `brew cask install obs` will install OBS. If you'd rather do it manually, there's a mac installer on the official OBS website.
-* **Before Launching OBS:** Copy the **contents of** `obs-studio` directory in this repository INTO your `~/Library/Application\ Support/obs-studio`. Create the `obs-studio` directory in `Application Support` if it doesn't exist.
+* **Before Launching OBS:** Replace the **contents of** your `~/Library/Application\ Support/obs-studio` directory with the `obs-studio` directory in this repository (Create the `obs-studio` directory in `Application Support` if it doesn't exist).
 * Now run OBS
 * Check OBS has three sources listed:
   * Projector Capture

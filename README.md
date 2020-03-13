@@ -34,9 +34,7 @@ OBS is relaiable software for creating high quality live streams. It works with 
   * Projector Capture
   * Display Capture
   * Mic/Aux
-* First time it's run, it will try to configure for your needs. Follow this process. Don't configure too many things yourself, as we will override this config shortly anyway.
-* Import the settings provided `Profile` > `Import`.
-* **Change the streamer key** Settings > Stream > Stream Key and repace it with YOUR streamer key from YouTube.
+* **Change the streamer key (don't need to do this now)** Settings > Stream > Stream Key and repace it with YOUR streamer key from YouTube. (you'll only get this once you've verified your account and actually went to create a stream)
 
 
 ## Before Streaming
